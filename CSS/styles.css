@@ -1,0 +1,74 @@
+body {
+    background-color: rgb(209, 209, 209);
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.maincontainer {
+    background-color: aliceblue;
+    height: 90%;
+    width: 40%;
+    display: block;
+    display: flex;
+    flex-direction: row;
+}
+
+.half_container {
+    width: 50%;
+    height: 100%;
+    display: flex;
+}
+
+.rigth_container {
+    background-color: rgb(226, 226, 226);
+}
+
+.left_container {
+    background-color: white;
+}
+
+.header_conrainer {
+    position: absolute;
+    top: 5%;
+    left: 0%;
+}
+
+.profession_container {
+    background-color: wheat;
+    height: 30px;
+    width: 120px;
+    position: relative;
+}
+
+.profession_text {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.name_text {
+    color: whitesmoke;
+    background-color: black;
+    padding: 20px;
+    margin: 0px;
+}
+
+.attributes_container {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+}
+
+.attribute_container {
+    padding-right: 10 15;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+}
